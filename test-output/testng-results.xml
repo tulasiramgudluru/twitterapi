@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9650" started-at="2018-02-25T18:38:53Z" finished-at="2018-02-25T18:39:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9650" started-at="2018-02-25T18:38:53Z" finished-at="2018-02-25T18:39:02Z">
+      <class name="com.letskodeit.statuses.UserTimelineTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.letskodeit.statuses.UserTimelineTest@2833cc44]" name="setup" is-config="true" duration-ms="1987" started-at="2018-02-26T00:08:53Z" finished-at="2018-02-26T00:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.letskodeit.statuses.UserTimelineTest@2833cc44]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2018-02-26T00:08:55Z" finished-at="2018-02-26T00:08:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.letskodeit.statuses.UserTimelineTest.readTweets1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="readTweets1()[pri:0, instance:com.letskodeit.statuses.UserTimelineTest@2833cc44]" name="readTweets1" duration-ms="5698" started-at="2018-02-26T00:08:55Z" finished-at="2018-02-26T00:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readTweets1 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.letskodeit.statuses.UserTimelineTest@2833cc44]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-02-26T00:09:01Z" finished-at="2018-02-26T00:09:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readTweets1 status=SUCCESS method=UserTimelineTest.readTweets1()[pri:0, instance:com.letskodeit.statuses.UserTimelineTest@2833cc44] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.letskodeit.statuses.UserTimelineTest@2833cc44]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-02-26T00:09:01Z" finished-at="2018-02-26T00:09:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.letskodeit.statuses.UserTimelineTest.readTweets2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="readTweets2()[pri:0, instance:com.letskodeit.statuses.UserTimelineTest@2833cc44]" name="readTweets2" duration-ms="800" started-at="2018-02-26T00:09:01Z" finished-at="2018-02-26T00:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readTweets2 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.letskodeit.statuses.UserTimelineTest@2833cc44]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-02-26T00:09:01Z" finished-at="2018-02-26T00:09:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readTweets2 status=SUCCESS method=UserTimelineTest.readTweets2()[pri:0, instance:com.letskodeit.statuses.UserTimelineTest@2833cc44] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.letskodeit.statuses.UserTimelineTest@2833cc44]" name="endTest" is-config="true" duration-ms="1021" started-at="2018-02-26T00:09:01Z" finished-at="2018-02-26T00:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.letskodeit.statuses.UserTimelineTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

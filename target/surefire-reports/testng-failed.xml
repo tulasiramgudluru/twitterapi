@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.letskodeit.statuses.UserTimelineTest">
+        <methods>
+          <include name="readTweets2"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.letskodeit.statuses.UserTimelineTest -->
+      <class name="com.letskodeit.statuses.TwitterWorkflowTest">
+        <methods>
+          <include name="readTweet"/>
+          <include name="setup"/>
+          <include name="postTweet"/>
+          <include name="deleteTweet"/>
+        </methods>
+      </class> <!-- com.letskodeit.statuses.TwitterWorkflowTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
